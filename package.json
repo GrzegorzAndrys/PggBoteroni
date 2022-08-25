@@ -1,0 +1,24 @@
+{
+  "name": "pggboteroni",
+  "version": "1.0.0",
+  "description": "PggBot dla informowania użytkowników o dostępności węgla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Grzegorz Andrys",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "localstorage": "^1.0.1",
+    "node-fetch": "^3.2.10",
+    "node-localstorage": "^2.2.1",
+    "nodemon": "^2.0.19"
+  }
+}
